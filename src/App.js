@@ -7,16 +7,16 @@ import DogDetails from './DogDetails';
 
 import './App.css';
 
-function App() {
+function App( { dogs } ) {
     return (
         <div className="App">
             <Nav />
             <Switch>
                 <Route exact path="/dogs" >
-                    <DogList /* what props will this need? */ />
+                    <DogList dogs={dogs} /* what props will this need? */ />
                 </Route>
                 <Route path="/dogs/:name" >
-                    <DogDetails /* what props will this need? */  />
+                    <DogDetails dogs={dogs}/* what props will this need? */  />
                 </Route>
                 <Redirect to="/dogs" />
             </Switch>

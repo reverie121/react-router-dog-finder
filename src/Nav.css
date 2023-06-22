@@ -1,0 +1,9 @@
+.Nav {
+    min-height: 25px;
+    background-color: teal;
+    text-align: center
+}
+
+.Nav a {
+    color: white;
+}

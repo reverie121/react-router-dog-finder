@@ -1,0 +1,14 @@
+.DogList {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.DogList img {
+    margin-top: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    max-height: 25rem;
+}
